@@ -1,0 +1,128 @@
+{
+  "uid" : "e51faa361885c29d",
+  "name" : "Validate End to End Create User",
+  "fullName" : "Test End to End User.Validate End to End Create User",
+  "historyId" : "a5a4eb2bcfb17fa1047ecfc5a5a6bed0",
+  "time" : {
+    "start" : 1632231335299,
+    "stop" : 1632231337572,
+    "duration" : 2273
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I am on page https://resttesttest.com/",
+      "time" : {
+        "start" : 1632231335300,
+        "stop" : 1632231335696,
+        "duration" : 396
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When I perform create use search for api/api/users",
+      "time" : {
+        "start" : 1632231335697,
+        "stop" : 1632231336739,
+        "duration" : 1042
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And I make POST /api/users api call",
+      "time" : {
+        "start" : 1632231336739,
+        "stop" : 1632231337464,
+        "duration" : 725
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I validate the create user search result",
+      "time" : {
+        "start" : 1632231337464,
+        "stop" : 1632231337572,
+        "duration" : 108
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Test End to End User"
+  }, {
+    "name" : "testClass",
+    "value" : "Test End to End User"
+  }, {
+    "name" : "testMethod",
+    "value" : "Validate End to End Create User"
+  }, {
+    "name" : "package",
+    "value" : "Test End to End User"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-93.0.4577.82"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e51faa361885c29d.json",
+  "parameterValues" : [ "chrome-93.0.4577.82" ]
+}

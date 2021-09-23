@@ -1,0 +1,96 @@
+{
+  "uid" : "8d05e2b5d05e5ddf",
+  "name" : "Validate form data with JSON file",
+  "fullName" : "Test practice form.Validate form data with JSON file",
+  "historyId" : "100aaff9bf147476ac0a7786c22d79b6",
+  "time" : {
+    "start" : 1632231355134,
+    "stop" : 1632231361638,
+    "duration" : 6504
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I am on form page \"https://demoqa.com/automation-practice-form\"",
+      "time" : {
+        "start" : 1632231355138,
+        "stop" : 1632231359685,
+        "duration" : 4547
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When I enter all mandate fields",
+      "time" : {
+        "start" : 1632231359686,
+        "stop" : 1632231361635,
+        "duration" : 1949
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "Test practice form"
+  }, {
+    "name" : "testClass",
+    "value" : "Test practice form"
+  }, {
+    "name" : "testMethod",
+    "value" : "Validate form data with JSON file"
+  }, {
+    "name" : "package",
+    "value" : "Test practice form"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-93.0.4577.82"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8d05e2b5d05e5ddf.json",
+  "parameterValues" : [ "chrome-93.0.4577.82" ]
+}

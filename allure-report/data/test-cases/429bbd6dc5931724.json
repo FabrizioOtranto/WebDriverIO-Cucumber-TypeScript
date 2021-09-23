@@ -1,0 +1,128 @@
+{
+  "uid" : "429bbd6dc5931724",
+  "name" : "Validate End to End Get Single User",
+  "fullName" : "Test End to End User.Validate End to End Get Single User",
+  "historyId" : "cbb3b1380318846c3df3e2a0462ff9e9",
+  "time" : {
+    "start" : 1632231333777,
+    "stop" : 1632231335299,
+    "duration" : 1522
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I am on page https://resttesttest.com/",
+      "time" : {
+        "start" : 1632231333781,
+        "stop" : 1632231334359,
+        "duration" : 578
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When I perform /api/users/2 user search",
+      "time" : {
+        "start" : 1632231334359,
+        "stop" : 1632231334658,
+        "duration" : 299
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And I make GET /api/users/2 api call",
+      "time" : {
+        "start" : 1632231334658,
+        "stop" : 1632231335191,
+        "duration" : 533
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I validate the search result",
+      "time" : {
+        "start" : 1632231335191,
+        "stop" : 1632231335296,
+        "duration" : 105
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Test End to End User"
+  }, {
+    "name" : "testClass",
+    "value" : "Test End to End User"
+  }, {
+    "name" : "testMethod",
+    "value" : "Validate End to End Get Single User"
+  }, {
+    "name" : "package",
+    "value" : "Test End to End User"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-93.0.4577.82"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "429bbd6dc5931724.json",
+  "parameterValues" : [ "chrome-93.0.4577.82" ]
+}

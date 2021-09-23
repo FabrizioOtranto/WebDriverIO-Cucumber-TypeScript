@@ -1,0 +1,85 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1632231333748' stop='1632231337573'>
+    <name>Test End to End User</name>
+    <title>Test End to End User</title>
+    <test-cases>
+        <test-case start='1632231333777' status='passed' stop='1632231335299'>
+            <name>Validate End to End Get Single User</name>
+            <title>Validate End to End Get Single User</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-93.0.4577.82'/>
+            </parameters>
+            <steps>
+                <step start='1632231333781' status='passed' stop='1632231334359'>
+                    <name>Given I am on page https://resttesttest.com/</name>
+                    <title>Given I am on page https://resttesttest.com/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1632231334359' status='passed' stop='1632231334658'>
+                    <name>When I perform /api/users/2 user search</name>
+                    <title>When I perform /api/users/2 user search</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1632231334658' status='passed' stop='1632231335191'>
+                    <name>And I make GET /api/users/2 api call</name>
+                    <title>And I make GET /api/users/2 api call</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1632231335191' status='passed' stop='1632231335296'>
+                    <name>Then I validate the search result</name>
+                    <title>Then I validate the search result</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1632231335299' status='passed' stop='1632231337572'>
+            <name>Validate End to End Create User</name>
+            <title>Validate End to End Create User</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-93.0.4577.82'/>
+            </parameters>
+            <steps>
+                <step start='1632231335300' status='passed' stop='1632231335696'>
+                    <name>Given I am on page https://resttesttest.com/</name>
+                    <title>Given I am on page https://resttesttest.com/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1632231335697' status='passed' stop='1632231336739'>
+                    <name>When I perform create use search for api/api/users</name>
+                    <title>When I perform create use search for api/api/users</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1632231336739' status='passed' stop='1632231337464'>
+                    <name>And I make POST /api/users api call</name>
+                    <title>And I make POST /api/users api call</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1632231337464' status='passed' stop='1632231337572'>
+                    <name>Then I validate the create user search result</name>
+                    <title>Then I validate the create user search result</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,34 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1632231655616' stop='1632231664318'>
+    <name>Test multiple enviromet</name>
+    <title>Test multiple enviromet</title>
+    <test-cases>
+        <test-case start='1632231655665' status='passed' stop='1632231664315'>
+            <name>Get app title</name>
+            <title>Get app title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-93.0.4577.82'/>
+            </parameters>
+            <steps>
+                <step start='1632231655669' status='passed' stop='1632231664292'>
+                    <name>Given I open app url</name>
+                    <title>Given I open app url</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1632231664292' status='passed' stop='1632231664314'>
+                    <name>Then I retrieve browser title</name>
+                    <title>Then I retrieve browser title</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

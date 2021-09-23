@@ -1,0 +1,113 @@
+{
+  "uid" : "26404f64b0567a73",
+  "name" : "Test File download",
+  "fullName" : "Validate download funcionality.Test File download",
+  "historyId" : "f268e38afa71c32da91e5a4780211b6",
+  "time" : {
+    "start" : 1632231341860,
+    "stop" : 1632231350564,
+    "duration" : 8704
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I open the browser and load the url https://the-internet.herokuapp.com/download",
+      "time" : {
+        "start" : 1632231341865,
+        "stop" : 1632231344270,
+        "duration" : 2405
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When I click on first file",
+      "time" : {
+        "start" : 1632231344270,
+        "stop" : 1632231350558,
+        "duration" : 6288
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I validate donwloaded file extension",
+      "time" : {
+        "start" : 1632231350558,
+        "stop" : 1632231350563,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Validate download funcionality"
+  }, {
+    "name" : "testClass",
+    "value" : "Validate download funcionality"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test File download"
+  }, {
+    "name" : "package",
+    "value" : "Validate download funcionality"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-93.0.4577.82"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "26404f64b0567a73.json",
+  "parameterValues" : [ "chrome-93.0.4577.82" ]
+}

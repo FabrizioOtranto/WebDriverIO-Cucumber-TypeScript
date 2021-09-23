@@ -1,0 +1,64 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1632231378170' stop='1632231381211'>
+    <name>chai page</name>
+    <title>chai page</title>
+    <test-cases>
+        <test-case start='1632231378209' status='passed' stop='1632231381208'>
+            <name>test chai form</name>
+            <title>test chai form</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-4'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-93.0.4577.82'/>
+            </parameters>
+            <steps>
+                <step start='1632231378213' status='passed' stop='1632231379852'>
+                    <name>Given I am on practice page "http://www.practiceselenium.com/practice-form.html"</name>
+                    <title>Given I am on practice page "http://www.practiceselenium.com/practice-form.html"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1632231379853' status='passed' stop='1632231379867'>
+                    <name>Then I validate page header "Practice Form"</name>
+                    <title>Then I validate page header "Practice Form"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1632231379868' status='passed' stop='1632231380173'>
+                    <name>When I enter firstname Fabrizio and lastname Otranto</name>
+                    <title>When I enter firstname Fabrizio and lastname Otranto</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1632231380173' status='passed' stop='1632231380581'>
+                    <name>And I select gender Male years 6 favorte chai Red Tea and reason Harmless Addiction</name>
+                    <title>And I select gender Male years 6 favorte chai Red Tea and reason Harmless Addiction</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1632231380581' status='passed' stop='1632231380743'>
+                    <name>And I select continent South America and comands Wait Commands</name>
+                    <title>And I select continent South America and comands Wait Commands</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1632231380743' status='passed' stop='1632231381202'>
+                    <name>And I click on submit button</name>
+                    <title>And I click on submit button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1632231381202' status='passed' stop='1632231381206'>
+                    <name>Then I validate page header "We're passionate about tea."</name>
+                    <title>Then I validate page header "We're passionate about tea."</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

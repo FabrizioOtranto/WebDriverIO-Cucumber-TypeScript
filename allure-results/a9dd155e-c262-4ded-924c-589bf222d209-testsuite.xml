@@ -1,0 +1,34 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1632231371455' stop='1632231374128'>
+    <name>The Internet website homepage</name>
+    <title>The Internet website homepage</title>
+    <test-cases>
+        <test-case start='1632231371477' status='passed' stop='1632231374127'>
+            <name>As a user, I can open internet website</name>
+            <title>As a user, I can open internet website</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-93.0.4577.82'/>
+            </parameters>
+            <steps>
+                <step start='1632231371480' status='passed' stop='1632231374056'>
+                    <name>Given I open the browser and load the url https://the-internet.herokuapp.com/</name>
+                    <title>Given I open the browser and load the url https://the-internet.herokuapp.com/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1632231374056' status='passed' stop='1632231374124'>
+                    <name>Then I should see a header with text Welcome to the-internet</name>
+                    <title>Then I should see a header with text Welcome to the-internet</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

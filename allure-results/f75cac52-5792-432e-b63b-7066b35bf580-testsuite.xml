@@ -1,0 +1,46 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1632231655681' stop='1632231687664'>
+    <name>Wait types demo</name>
+    <title>Wait types demo</title>
+    <test-cases>
+        <test-case start='1632231655757' status='broken' stop='1632231687660'>
+            <name>Test Diferent wait types</name>
+            <title>Test Diferent wait types</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-93.0.4577.82'/>
+            </parameters>
+            <steps>
+                <step start='1632231655770' status='passed' stop='1632231677482'>
+                    <name>Given I am on dynamic loading https://the-internet.herokuapp.com/dynamic_loading/1 page</name>
+                    <title>Given I am on dynamic loading https://the-internet.herokuapp.com/dynamic_loading/1 page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1632231677482' status='passed' stop='1632231677580'>
+                    <name>When I clikc on start button</name>
+                    <title>When I clikc on start button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1632231677580' status='broken' stop='1632231687660'>
+                    <name>Then I validate loading icon</name>
+                    <title>Then I validate loading icon</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: Message was not displayed in 10 seconds</message>
+                <stack-trace>Error: Message was not displayed in 10 seconds
+                    at C:\Users\fabry\Desktop\introduccion\WebDriverIo\WebDriverIo-cucumber\node_modules\webdriverio\build\commands\browser\waitUntil.js:66:23
+                    at async Browser.wrapCommandFn (C:\Users\fabry\Desktop\introduccion\WebDriverIo\WebDriverIo-cucumber\node_modules\@wdio\utils\build\shim.js:106:29)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

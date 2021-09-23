@@ -1,0 +1,114 @@
+{
+  "uid" : "76c4d32afd0f721e",
+  "name" : "Validate form data with JSON file",
+  "fullName" : "Test practice form.Validate form data with JSON file",
+  "historyId" : "100aaff9bf147476ac0a7786c22d79b6",
+  "time" : {
+    "start" : 1632231364062,
+    "stop" : 1632231367297,
+    "duration" : 3235
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I am on form page \"https://demoqa.com/automation-practice-form\"",
+      "time" : {
+        "start" : 1632231364063,
+        "stop" : 1632231366021,
+        "duration" : 1958
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When I enter all mandate fields from formdata3.json",
+      "time" : {
+        "start" : 1632231366021,
+        "stop" : 1632231367296,
+        "duration" : 1275
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "Test practice form"
+  }, {
+    "name" : "testClass",
+    "value" : "Test practice form"
+  }, {
+    "name" : "testMethod",
+    "value" : "Validate form data with JSON file"
+  }, {
+    "name" : "package",
+    "value" : "Test practice form"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-93.0.4577.82"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c945d08e7d9df039",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632231361639,
+        "stop" : 1632231364062,
+        "duration" : 2423
+      }
+    }, {
+      "uid" : "8d05e2b5d05e5ddf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632231355134,
+        "stop" : 1632231361638,
+        "duration" : 6504
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "76c4d32afd0f721e.json",
+  "parameterValues" : [ "chrome-93.0.4577.82" ]
+}

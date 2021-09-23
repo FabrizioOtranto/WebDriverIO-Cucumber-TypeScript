@@ -1,0 +1,40 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1632231341829' stop='1632231350565'>
+    <name>Validate download funcionality</name>
+    <title>Validate download funcionality</title>
+    <test-cases>
+        <test-case start='1632231341860' status='passed' stop='1632231350564'>
+            <name>Test File download</name>
+            <title>Test File download</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-93.0.4577.82'/>
+            </parameters>
+            <steps>
+                <step start='1632231341865' status='passed' stop='1632231344270'>
+                    <name>Given I open the browser and load the url https://the-internet.herokuapp.com/download</name>
+                    <title>Given I open the browser and load the url https://the-internet.herokuapp.com/download</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1632231344270' status='passed' stop='1632231350558'>
+                    <name>When I click on first file</name>
+                    <title>When I click on first file</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1632231350558' status='passed' stop='1632231350563'>
+                    <name>Then I validate donwloaded file extension</name>
+                    <title>Then I validate donwloaded file extension</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

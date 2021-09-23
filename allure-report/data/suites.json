@@ -1,0 +1,154 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Test End to End User",
+    "children" : [ {
+      "name" : "Validate End to End Get Single User",
+      "uid" : "429bbd6dc5931724",
+      "parentUid" : "87a8e6236c6a6aba64b9cc6838aaeb5e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632231333777,
+        "stop" : 1632231335299,
+        "duration" : 1522
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-93.0.4577.82" ]
+    }, {
+      "name" : "Validate End to End Create User",
+      "uid" : "e51faa361885c29d",
+      "parentUid" : "87a8e6236c6a6aba64b9cc6838aaeb5e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632231335299,
+        "stop" : 1632231337572,
+        "duration" : 2273
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-93.0.4577.82" ]
+    } ],
+    "uid" : "87a8e6236c6a6aba64b9cc6838aaeb5e"
+  }, {
+    "name" : "Validate download funcionality",
+    "children" : [ {
+      "name" : "Test File download",
+      "uid" : "26404f64b0567a73",
+      "parentUid" : "f38e24ba140f210af56695fbdc54238f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632231341860,
+        "stop" : 1632231350564,
+        "duration" : 8704
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-93.0.4577.82" ]
+    } ],
+    "uid" : "f38e24ba140f210af56695fbdc54238f"
+  }, {
+    "name" : "Test practice form",
+    "children" : [ {
+      "name" : "Validate form data with JSON file",
+      "uid" : "76c4d32afd0f721e",
+      "parentUid" : "daea1467a1a29cc6faa1523acbbdba13",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632231364062,
+        "stop" : 1632231367297,
+        "duration" : 3235
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-93.0.4577.82" ]
+    } ],
+    "uid" : "daea1467a1a29cc6faa1523acbbdba13"
+  }, {
+    "name" : "The Internet website homepage",
+    "children" : [ {
+      "name" : "As a user, I can open internet website",
+      "uid" : "8e2c2368f6abfc79",
+      "parentUid" : "f6dd1baf17bd76a661bba55850637031",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632231371477,
+        "stop" : 1632231374127,
+        "duration" : 2650
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-93.0.4577.82" ]
+    } ],
+    "uid" : "f6dd1baf17bd76a661bba55850637031"
+  }, {
+    "name" : "chai page",
+    "children" : [ {
+      "name" : "test chai form",
+      "uid" : "27e744e1d6681759",
+      "parentUid" : "2c8e79d969f38246d9228f00e98c2a81",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632231378209,
+        "stop" : 1632231381208,
+        "duration" : 2999
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-93.0.4577.82" ]
+    } ],
+    "uid" : "2c8e79d969f38246d9228f00e98c2a81"
+  }, {
+    "name" : "Test multiple enviromet",
+    "children" : [ {
+      "name" : "Get app title",
+      "uid" : "1899fd451a887e52",
+      "parentUid" : "489fa6267b4ca41d7c22660439bc4b05",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632231799339,
+        "stop" : 1632231801296,
+        "duration" : 1957
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-93.0.4577.82" ]
+    } ],
+    "uid" : "489fa6267b4ca41d7c22660439bc4b05"
+  }, {
+    "name" : "Wait types demo",
+    "children" : [ {
+      "name" : "Test Diferent wait types",
+      "uid" : "98fd906735bba9d9",
+      "parentUid" : "e8a9a18f09e74b64016def4d53113a73",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632231799636,
+        "stop" : 1632231808211,
+        "duration" : 8575
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-93.0.4577.82" ]
+    } ],
+    "uid" : "e8a9a18f09e74b64016def4d53113a73"
+  }, {
+    "name" : "The Internet Guinea Pig Website",
+    "children" : [ {
+      "name" : "As a user, I can log into the secure area",
+      "uid" : "2387dc380d8f04fa",
+      "parentUid" : "e50f1a32fef3ccd6ae670b02e778c115",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632231802847,
+        "stop" : 1632231804173,
+        "duration" : 1326
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-93.0.4577.82" ]
+    } ],
+    "uid" : "e50f1a32fef3ccd6ae670b02e778c115"
+  } ],
+  "name" : "suites"
+}

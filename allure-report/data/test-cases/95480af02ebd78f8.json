@@ -1,0 +1,96 @@
+{
+  "uid" : "95480af02ebd78f8",
+  "name" : "Get app title",
+  "fullName" : "Test multiple enviromet.Get app title",
+  "historyId" : "ed3ca43a705724ac39f089eedd40bb0c",
+  "time" : {
+    "start" : 1632231655665,
+    "stop" : 1632231664315,
+    "duration" : 8650
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I open app url",
+      "time" : {
+        "start" : 1632231655669,
+        "stop" : 1632231664292,
+        "duration" : 8623
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I retrieve browser title",
+      "time" : {
+        "start" : 1632231664292,
+        "stop" : 1632231664314,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Test multiple enviromet"
+  }, {
+    "name" : "testClass",
+    "value" : "Test multiple enviromet"
+  }, {
+    "name" : "testMethod",
+    "value" : "Get app title"
+  }, {
+    "name" : "package",
+    "value" : "Test multiple enviromet"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-93.0.4577.82"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "95480af02ebd78f8.json",
+  "parameterValues" : [ "chrome-93.0.4577.82" ]
+}

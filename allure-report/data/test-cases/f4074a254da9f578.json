@@ -1,0 +1,111 @@
+{
+  "uid" : "f4074a254da9f578",
+  "name" : "As a user, I can log into the secure area",
+  "fullName" : "The Internet Guinea Pig Website.As a user, I can log into the secure area",
+  "historyId" : "7a105999c50ed3926ec8af64dbe897bf",
+  "time" : {
+    "start" : 1632231557877,
+    "stop" : 1632231561696,
+    "duration" : 3819
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I am on the login page",
+      "time" : {
+        "start" : 1632231557892,
+        "stop" : 1632231560886,
+        "duration" : 2994
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When I login with tomsmith and SuperSecretPassword!",
+      "time" : {
+        "start" : 1632231560886,
+        "stop" : 1632231561621,
+        "duration" : 735
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I should see a flash message saying You logged into a secure area!",
+      "time" : {
+        "start" : 1632231561621,
+        "stop" : 1632231561694,
+        "duration" : 73
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Internet Guinea Pig Website"
+  }, {
+    "name" : "testClass",
+    "value" : "The Internet Guinea Pig Website"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a user, I can log into the secure area"
+  }, {
+    "name" : "package",
+    "value" : "The Internet Guinea Pig Website"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-93.0.4577.82"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f4074a254da9f578.json",
+  "parameterValues" : [ "chrome-93.0.4577.82" ]
+}

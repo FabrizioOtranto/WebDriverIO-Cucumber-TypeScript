@@ -1,0 +1,111 @@
+{
+  "uid" : "78ea42004eb1703d",
+  "name" : "Test Diferent wait types",
+  "fullName" : "Wait types demo.Test Diferent wait types",
+  "historyId" : "40a247503db37b682428a302b6a8c23e",
+  "time" : {
+    "start" : 1632231400209,
+    "stop" : 1632231407933,
+    "duration" : 7724
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I am on dynamic loading https://the-internet.herokuapp.com/dynamic_loading/1 page",
+      "time" : {
+        "start" : 1632231400213,
+        "stop" : 1632231402647,
+        "duration" : 2434
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When I clikc on start button",
+      "time" : {
+        "start" : 1632231402647,
+        "stop" : 1632231402796,
+        "duration" : 149
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I validate loading icon",
+      "time" : {
+        "start" : 1632231402796,
+        "stop" : 1632231407930,
+        "duration" : 5134
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-7"
+  }, {
+    "name" : "suite",
+    "value" : "Wait types demo"
+  }, {
+    "name" : "testClass",
+    "value" : "Wait types demo"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test Diferent wait types"
+  }, {
+    "name" : "package",
+    "value" : "Wait types demo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-93.0.4577.82"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "78ea42004eb1703d.json",
+  "parameterValues" : [ "chrome-93.0.4577.82" ]
+}
