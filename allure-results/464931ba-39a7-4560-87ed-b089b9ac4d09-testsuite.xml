@@ -1,0 +1,95 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1632411805098' stop='1632411810154'>
+    <name>The Internet Guinea Pig Website</name>
+    <title>The Internet Guinea Pig Website</title>
+    <test-cases>
+        <test-case start='1632411805125' status='broken' stop='1632411809100'>
+            <name>As a user, I can log into the secure area</name>
+            <title>As a user, I can log into the secure area</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-5'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-93.0.4577.82'/>
+            </parameters>
+            <steps>
+                <step start='1632411805128' status='passed' stop='1632411808264'>
+                    <name>Given I am on the login page</name>
+                    <title>Given I am on the login page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1632411808265' status='broken' stop='1632411809100'>
+                    <name>When I login with tomsmith and SuperSecretPassword!</name>
+                    <title>When I login with tomsmith and SuperSecretPassword!</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1632411809101' status='canceled' stop='1632411809101'>
+                    <name>Then I should see a flash message saying You logged into a secure area!</name>
+                    <title>Then I should see a flash message saying You logged into a secure area!</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: IllegalArgument: appName is null or undefined</message>
+                <stack-trace>Error: IllegalArgument: appName is null or undefined
+                    at Object.notNull (C:\Users\fabry\Desktop\introduccion\WebDriverIo\WebDriverIo-cucumber\node_modules\@applitools\eyes-sdk-core\lib\utils\ArgumentGuard.js:37:11)
+                    at Object.openBase (C:\Users\fabry\Desktop\introduccion\WebDriverIo\WebDriverIo-cucumber\node_modules\@applitools\eyes-sdk-core\lib\sdk\EyesBase.js:1419:23)
+                    at Object.open (C:\Users\fabry\Desktop\introduccion\WebDriverIo\WebDriverIo-cucumber\node_modules\@applitools\eyes-sdk-core\lib\sdk\EyesClassic.js:66:16)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at async Object.openEyes (C:\Users\fabry\Desktop\introduccion\WebDriverIo\WebDriverIo-cucumber\node_modules\@applitools\eyes-sdk-core\lib\new\open-eyes.js:47:5)
+                    at async ClassicRunner.openEyes (C:\Users\fabry\Desktop\introduccion\WebDriverIo\WebDriverIo-cucumber\node_modules\@applitools\eyes-api\dist\Runners.js:44:16)
+                    at async Eyes.open (C:\Users\fabry\Desktop\introduccion\WebDriverIo\WebDriverIo-cucumber\node_modules\@applitools\eyes-api\dist\Eyes.js:135:22)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1632411809105' status='broken' stop='1632411810149'>
+            <name>As a user, I can log into the secure area</name>
+            <title>As a user, I can log into the secure area</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-5'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-93.0.4577.82'/>
+            </parameters>
+            <steps>
+                <step start='1632411809106' status='passed' stop='1632411809376'>
+                    <name>Given I am on the login page</name>
+                    <title>Given I am on the login page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1632411809376' status='broken' stop='1632411810149'>
+                    <name>When I login with foobar and barfoo</name>
+                    <title>When I login with foobar and barfoo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1632411810150' status='canceled' stop='1632411810150'>
+                    <name>Then I should see a flash message saying Your username is invalid!</name>
+                    <title>Then I should see a flash message saying Your username is invalid!</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: IllegalArgument: appName is null or undefined</message>
+                <stack-trace>Error: IllegalArgument: appName is null or undefined
+                    at Object.notNull (C:\Users\fabry\Desktop\introduccion\WebDriverIo\WebDriverIo-cucumber\node_modules\@applitools\eyes-sdk-core\lib\utils\ArgumentGuard.js:37:11)
+                    at Object.openBase (C:\Users\fabry\Desktop\introduccion\WebDriverIo\WebDriverIo-cucumber\node_modules\@applitools\eyes-sdk-core\lib\sdk\EyesBase.js:1419:23)
+                    at Object.open (C:\Users\fabry\Desktop\introduccion\WebDriverIo\WebDriverIo-cucumber\node_modules\@applitools\eyes-sdk-core\lib\sdk\EyesClassic.js:66:16)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at async Object.openEyes (C:\Users\fabry\Desktop\introduccion\WebDriverIo\WebDriverIo-cucumber\node_modules\@applitools\eyes-sdk-core\lib\new\open-eyes.js:47:5)
+                    at async ClassicRunner.openEyes (C:\Users\fabry\Desktop\introduccion\WebDriverIo\WebDriverIo-cucumber\node_modules\@applitools\eyes-api\dist\Runners.js:44:16)
+                    at async Eyes.open (C:\Users\fabry\Desktop\introduccion\WebDriverIo\WebDriverIo-cucumber\node_modules\@applitools\eyes-api\dist\Eyes.js:135:22)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

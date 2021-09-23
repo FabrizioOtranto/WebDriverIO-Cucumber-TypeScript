@@ -1,0 +1,99 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1632425710449' stop='1632425761383'>
+    <name>The Internet Guinea Pig Website</name>
+    <title>The Internet Guinea Pig Website</title>
+    <test-cases>
+        <test-case start='1632425710477' status='broken' stop='1632425736619'>
+            <name>As a user, I can log into the secure area</name>
+            <title>As a user, I can log into the secure area</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-5'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-93.0.4577.82'/>
+            </parameters>
+            <steps>
+                <step start='1632425713772' status='passed' stop='1632425716926'>
+                    <name>Given I am on the login page</name>
+                    <title>Given I am on the login page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1632425716926' status='passed' stop='1632425733458'>
+                    <name>When I login with tomsmith and SuperSecretPassword!</name>
+                    <title>When I login with tomsmith and SuperSecretPassword!</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1632425733459' status='passed' stop='1632425733547'>
+                    <name>Then I should see a flash message saying You logged into a secure area!</name>
+                    <title>Then I should see a flash message saying You logged into a secure area!</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1632425733547' status='broken' stop='1632425736619'>
+                    <name></name>
+                    <title></title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: Test 'As a user, I can log into the secure area' of 'As a user, I can log into the secure area' detected differences! See details at: https://eyes.applitools.com/app/batches/00000251769875088445/00000251769875088164?accountId=VQx55OMVF0uvKroOlVVnXw~~</message>
+                <stack-trace>Error: Test 'As a user, I can log into the secure area' of 'As a user, I can log into the secure area' detected differences! See details at: https://eyes.applitools.com/app/batches/00000251769875088445/00000251769875088164?accountId=VQx55OMVF0uvKroOlVVnXw~~
+                    at Eyes.close (C:\Users\fabry\Desktop\introduccion\WebDriverIo\WebDriverIo-cucumber\node_modules\@applitools\eyes-api\dist\Eyes.js:247:23)
+                    at runMicrotasks (&lt;anonymous>)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1632425736625' status='broken' stop='1632425761377'>
+            <name>As a user, I cannot log into the secure area with invalid credentials</name>
+            <title>As a user, I cannot log into the secure area with invalid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-5'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-93.0.4577.82'/>
+            </parameters>
+            <steps>
+                <step start='1632425740023' status='passed' stop='1632425740309'>
+                    <name>Given I am on the login page</name>
+                    <title>Given I am on the login page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1632425740309' status='passed' stop='1632425756632'>
+                    <name>When I login with foobar and barfoo</name>
+                    <title>When I login with foobar and barfoo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1632425756633' status='passed' stop='1632425756761'>
+                    <name>Then I should see a flash message saying Your username is invalid!</name>
+                    <title>Then I should see a flash message saying Your username is invalid!</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1632425756762' status='broken' stop='1632425761376'>
+                    <name></name>
+                    <title></title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: Test 'As a user, I cannot log into the secure area with invalid credentials' of 'As a user, I cannot log into the secure area with invalid credentials' detected differences! See details at: https://eyes.applitools.com/app/batches/00000251769875062800/00000251769875062425?accountId=VQx55OMVF0uvKroOlVVnXw~~</message>
+                <stack-trace>Error: Test 'As a user, I cannot log into the secure area with invalid credentials' of 'As a user, I cannot log into the secure area with invalid credentials' detected differences! See details at: https://eyes.applitools.com/app/batches/00000251769875062800/00000251769875062425?accountId=VQx55OMVF0uvKroOlVVnXw~~
+                    at Eyes.close (C:\Users\fabry\Desktop\introduccion\WebDriverIo\WebDriverIo-cucumber\node_modules\@applitools\eyes-api\dist\Eyes.js:247:23)
+                    at runMicrotasks (&lt;anonymous>)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
