@@ -7,12 +7,17 @@ Feature: The Internet Guinea Pig Website
     When I login with <username> and <password>
     Then I should see a flash message saying <message>
 
-    @DEV
+    
     Examples:
       | username | password             | message                        |
       | tomsmith | SuperSecretPassword! | You logged into a secure area! |
 
-    @QA
+Scenario Outline: As a user, I cannot log into the secure area with invalid credentials
+
+    Given I am on the login page
+    When I login with <username> and <password>
+    Then I should see a flash message saying <message>
+    
     Examples:
       | username | password             | message                        |
       | foobar   | barfoo               | Your username is invalid!      |

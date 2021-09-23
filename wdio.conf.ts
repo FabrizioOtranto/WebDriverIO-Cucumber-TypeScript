@@ -1,7 +1,22 @@
 import { DONWLOAD_FOLDER_PATH } from "./src/constants/pathconst"
 
+const {
+    ClassicRunner,
+    RunnerOptions,
+    Eyes,
+    Target,
+    Configuration,
+    BatchInfo,
+  } = require('@applitools/eyes-webdriverio');
+
+const globalAny:any = global;
 const google = 'https://www.google.co.in/'
 const wiki = 'https://www.wikipedia.org/'
+
+let eyes;
+let configuration;
+let runner;
+
 
 let appBaseURL:string
 
@@ -239,8 +254,10 @@ export const config: WebdriverIO.Config = {
      * @param {Array.<String>} specs        List of spec file paths that are to be run
      * @param {Object}         browser      instance of created browser/device session
      */
-    // before: function (capabilities, specs) {
-    // },
+
+   // before: async function (scenario){
+        
+    //},
     /**
      * Runs before a WebdriverIO command gets executed.
      * @param {String} commandName hook command name
@@ -262,16 +279,18 @@ export const config: WebdriverIO.Config = {
      * Runs before a Cucumber Scenario.
      * @param {ITestCaseHookParameter} world world object containing information on pickle and test step
      */
-    // beforeScenario: function (world) {
-    // },
+    //beforeScenario: async function (scenario) {
+
+    //},
     /**
      *
      * Runs before a Cucumber Step.
      * @param {Pickle.IPickleStep} step     step data
      * @param {IPickle}            scenario scenario pickle
      */
-    // beforeStep: function (step, scenario) {
-    // },
+
+    //beforeStep:async  function (step, scenario) {  
+    //},
     /**
      *
      * Runs after a Cucumber Step.
@@ -282,8 +301,9 @@ export const config: WebdriverIO.Config = {
      * @param {string}             result.error    error stack if scenario failed
      * @param {number}             result.duration duration of scenario in milliseconds
      */
-    // afterStep: function (step, scenario, result) {
-    // },
+    // afterStep: async function (step, scenario, result) {
+
+   // },
     /**
      *
      * Runs before a Cucumber Scenario.
